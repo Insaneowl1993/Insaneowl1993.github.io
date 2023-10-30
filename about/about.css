@@ -1,0 +1,14 @@
+body {
+    font-family: Arial;
+    background-image: url(/Insaneowl1993.github.io/images/milky-way-starry-sky-night-sky-star-956999.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.about-me ,
+.first-paragraph {
+        color: white;
+        font-size: 50px;
+        text-align: center;
+    }
