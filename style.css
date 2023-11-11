@@ -3,9 +3,9 @@ body {
     background-image: url(images/milky-way-starry-sky-night-sky-star-956999.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
-
 }
 
+/* Home page */
 .intro-heading {
     color: white;
     font-size: 100px;
@@ -33,3 +33,11 @@ body {
     transition: 0.8s;
     opacity: 0.8;
 }
+
+/* About page */
+.about-me ,
+.first-paragraph {
+        color: white;
+        font-size: 50px;
+        text-align: center;
+    }
