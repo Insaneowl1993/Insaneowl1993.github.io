@@ -1,9 +1,9 @@
-body {
+/* body {
     font-family: Arial;
-    background-image: url(images/milky-way-starry-sky-night-sky-star-956999.jpeg);
+    background-image: url(/images/Stars-background.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
-
+    color: white;
 }
 
 .intro-heading {
@@ -32,4 +32,106 @@ body {
 .menu-buttons:hover {
     transition: 0.8s;
     opacity: 0.8;
+}
+
+.about-me {
+    text-align: center;
+    font-size: 80px;
+}
+
+.about-first-paragraph{
+    text-align:center;
+    font-size: 30px;
+}
+
+#contact-link{
+    color: white;
+} */
+
+body {
+  margin: 2px;
+  color: black;
+  font-family: Arial;
+
+}
+
+.sidebar {
+  grid-area: sidebar;
+  height: 780px;
+  background-image: url(/images/Stars-background.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+.content {
+  grid-area: content;
+  position: relative;
+  width: 100em;
+  color: black;
+}
+
+.header {
+  grid-area: header;
+  width: 113rem;
+  text-align: center;
+  border-bottom: solid 3px black;
+  font-family: 'Great Vibes', cursive;
+  font-size: 60px;
+  padding: 5px;
+}
+
+.footer {
+  grid-area: footer;
+  position: fixed;
+  bottom: 0;
+  width: 113rem;
+  border-top: solid 3px black;
+
+}
+
+.wrapper {
+    display: grid;
+    grid-gap: 2px;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-areas:
+    "header  header  header"
+    "sidebar content content"
+    "footer  footer  footer";
+    background-color: #fff;
+  }
+
+
+.box {
+  background-color: #fffdfd;
+  padding: 10px;
+}
+
+.header,
+.footer {
+  background-color: #fffefe;
+}
+
+.topleft {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.topright {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.bottomleft {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.bottomright {
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
