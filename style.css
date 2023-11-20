@@ -1,101 +1,31 @@
 body {
-  margin: 2px;
-  color: black;
-  font-family: Arial;
-
-}
-
-.sidebar {
-  grid-area: sidebar;
-  height: 704px;
-  background-image: url(/images/Stars-background.jpeg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: white;
-}
-
-.content {
-  grid-area: content;
-  position: relative;
-  width: 105em;
-  color: black;
-}
-
-.header {
-  grid-area: header;
-  width: 119rem;
+  margin: 0;
+  color: rgb(255, 252, 252);
+  font-family: 'Great Vibes', Arial;
   text-align: center;
-  border-bottom: solid 3px black;
-  font-family: 'Great Vibes', cursive;
-  font-size: 60px;
-  padding: 5px;
-  background-image: url(/images/Stars-background.jpeg);
-  background-size: cover;
-  background-repeat: no-repeat;
+  word-spacing: 70px;
+  font-size: 2rem;
+  background-color:black;
+  background-image: /*Credit: https://projects.verou.me/css3patterns/# */
+  radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
+  radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
+  radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px),
+  radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
+  background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
+  background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
+}
+
+.page-anchor {
   color: white;
+  text-decoration: none;
 }
 
-.menu-panel{
-    position: flex;
+.main-page {
+  height: 20vh;
+
 }
 
-.menu-button{
-    padding: 10px 40px;
-    color: white;
-    text-decoration: none;
-}
-
-.footer {
-  grid-area: footer;
-  position: fixed;
-  bottom: 0;
-  width: 119rem;
-  border-top: solid 3px black;
-  background-image: url(/images/Stars-background.jpeg);
-}
-
-.wrapper {
-    display: grid;
-    grid-gap: 0px;
-    grid-template-columns: 200px 200px 200px;
-    grid-template-areas:
-    "header  header  header"
-    "sidebar content content"
-    "footer  footer  footer";
-    background-color: #fff;
-  }
-
-
-.box {
-  background-color: #fffdfd;
-  padding: 10px;
-}
-
-.header,
-.footer {
-  background-color: #fffefe;
-}
-
-.topleft {
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-.topright {
-  position: absolute;
-  top: 0;
-  right: 0;
-}
-
-.bottomleft {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-}
-
-.bottomright {
-  position: absolute;
-  bottom: 0;
-  right: 0;
+.page-anchor {
+  font-size: 50px;
+  word-spacing: 20em;
 }
