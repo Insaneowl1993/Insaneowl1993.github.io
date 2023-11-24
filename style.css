@@ -1,31 +1,239 @@
-body {
+body{
+  margin-top: 106px;
+}
+
+#owl {
+  margin-left: 216px;
+  max-width: 500px;
+}
+
+#owl-head > div{
+  z-index: 900;
+  width: 100px;
+  top: 120px;
+  aspect-ratio: 1;
+  background: 
+  radial-gradient(12% 22% at 50% 91%,#f48d02 99%,#0000) 50% 20%/80% 50%,
+  radial-gradient(21% 40% at 100% 10%,#f48d02 99%,#0000) 0% 100%/51% 45%,
+  radial-gradient(20% 40% at 0% 10%,#f48d02 99%,#0000) 100% 100%/50% 45%,
+  radial-gradient(30% 40%, hsl(57, 100%, 91%) 99%, rgb(0, 0, 0, 0)),
+  radial-gradient(45% 50%, rgb(165, 108, 42) 99%, rgb(0, 0, 0, 0)),
+  radial-gradient(50% 50%, rgb(150, 95, 20) 99%, rgb(0, 0, 0, 0));
+  background-repeat: no-repeat;
+  position: absolute;
+}
+
+
+
+#owl-head > div:before, 
+#owl-head > div:after {
+  content: "";
+  position: absolute;
+  top: 20px;
+  left: 10px;
+  background:    
+  radial-gradient(10% 10%, rgb(255, 255, 255) 80%, rgb(0, 0, 0, 0)) 90% 0%/60% 60% no-repeat,
+  radial-gradient(50% 50%, #ffffff 80%, rgb(0, 0, 0, 0))  30% 70%/20% 20% no-repeat,
+  radial-gradient(30% 30%, #35251d 98%, rgb(0, 0, 0, 0)),
+  radial-gradient(36% 36%, #81674c 98%, rgb(0, 0, 0, 0)),
+  radial-gradient(40% 40%, #35251d 98%, rgb(0, 0, 0, 0)),
+  radial-gradient(50% 50%, #fcd12a 99%, rgb(0, 0, 0, 0));
+  width: 39px;
+  aspect-ratio: 1;
+  z-index: 900;
+} 
+
+#owl-head > div:after{
+  left: auto;
+  right: 10px;
+  border-radius: 80px;
+}
+
+#ear1,
+#ear2 {
+  position: inherit;
+  background-color: rgb(165, 108, 42);
+  z-index: 100;
+  color: rgb(165, 108, 42);
+  width: 20px;
+  padding: 5px;
+}
+#ear3, 
+#ear4{
+position: inherit;
+background-color: rgb(150, 95, 20);
+z-index: 100;
+color:rgb(150, 95, 20);
+width: 10px;
+padding: 5px;
+}
+
+
+
+#ear1
+{ 
+  left: 5px;
+  top:5px;
+  transform: skewX(25deg) skewY(35deg);
+}
+
+#ear2 {
+  top: 5px;
+  left: 66px;
+  transform: skewX(-25deg) skewY(-35deg);
+  z-index: 100;
+}
+
+#ear3{
+  left: 10px;
+  top:5px;
+  transform: skewX(25deg) skewY(35deg);
+}
+
+#ear4{
+top: 5px;
+left: 70px;
+transform: skewX(-25deg) skewY(-35deg);
+z-index: 100;
+}
+
+#owl-body {
+  position: absolute;
+  top: 180px;
+  z-index: 850;
+  width: 100px;
+  aspect-ratio: .85;
+  background:
+  radial-gradient(35% 45%, hsl(57, 100%, 91%) 99%, rgb(0, 0, 0, 0)),
+  radial-gradient(40% 45%, rgb(165, 108, 42) 99%, rgb(0, 0, 0, 0)),
+  radial-gradient(50% 45%, rgb(150, 95, 20) 99%, rgb(0, 0, 0, 0));
+  background-repeat: no-repeat;
+
+}
+
+#toe-1,
+#toe-2,
+#toe-3 {
+  position: absolute;
+  z-index: 990;
+  width: 37px;
   margin: 0;
-  color: rgb(255, 252, 252);
-  font-family: 'Great Vibes', Arial;
-  text-align: center;
-  word-spacing: 70px;
-  font-size: 2rem;
-  background-color:black;
-  background-image: /*Credit: https://projects.verou.me/css3patterns/# */
-  radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
-  radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
-  radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px),
-  radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
-  background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
-  background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
-}
-
-.page-anchor {
-  color: white;
-  text-decoration: none;
-}
-
-.main-page {
-  height: 20vh;
+  aspect-ratio: .5;
+  background: 
+  radial-gradient(25% 30%, #f48d02 99%, rgb(0, 0, 0, 0))  90% 100%/60% 45% no-repeat,
+  radial-gradient(25% 30%, #f48d02 99%, rgb(0, 0, 0, 0))  90% 100%/60% 45% no-repeat,
+  radial-gradient(25% 30%, #f48d02 99%, rgb(0, 0, 0, 0))  90% 100%/60% 45% no-repeat; 
 
 }
+#toe-1{
+  left: 225px;
+  top: 225px;
+  padding-bottom: 5px;
+}
+#toe-2{
+  left:235px;
+  top: 225px;
+  padding-bottom:6px;
+}
+#toe-3{
+  left:245px;
+  top: 225px;
+  padding-bottom:7px;
+} 
 
-.page-anchor {
-  font-size: 50px;
-  word-spacing: 20em;
+#toe-4,
+#toe-5,
+#toe-6 {
+  position: absolute;
+  z-index: 990;
+  width: 40px;
+  aspect-ratio: .5;
+  background: radial-gradient(25% 30%, #f48d02 99%, rgb(0, 0, 0, 0))  100% 100%/60% 45% no-repeat; 
+
+}
+#toe-4 {
+  left: 255px;
+  top: 220px;
+  padding-bottom: 6px;
+}
+#toe-5 {
+  left:265px;
+  top: 220px;
+  padding-bottom:6px;
+}
+#toe-6 {
+  left:275px;
+  top: 220px;
+  padding-bottom:6px;
+}
+
+/* src: #1 Fall https://css-only.art/divtober-2023/  */
+#fall > div {
+  --c: #4f0905;
+  width: 350px;
+  aspect-ratio: 1;
+  background: 
+  conic-gradient(from -106deg at 100% 40%,var(--c) 1.5%,#0000 1.8%)48% 21%/29% 16%,
+  conic-gradient(from -30deg at 100% 100%,var(--c) 1.5%,#0000 1.7%)47% 89%/16% 16%, 
+  conic-gradient(from 270deg at 100% 100%,var(--c) 1.5%,#0000 1.7%)81% 42%/26% 21%,
+  conic-gradient(from 246deg at 100% 0,var(--c) 2%,#0000 2.4%)46% 81%/21% 21%, 
+  conic-gradient(from 222deg at 100% 0,var(--c) 2%,#0000 2.4%)56% 30%/40% 16%, 
+  radial-gradient(125% 75% at 0% 0%,#0000 65%,var(--c) 66% 99%,#0000 )0% 82%/20% 25%, 
+  radial-gradient(72% 61% at 79% 100%,#0000 90%,skyblue 75% 98%,#0000 )100% 39%/82% 50%, 
+  radial-gradient(71% 61% at 80% 100%,#0000 90%,var(--c) 91% 99%,#0000 ) 50% 38%/88% 50%, 
+  radial-gradient(75% 116% at 88% 100%,#0000 88%,var(--c) 89% 99%,#0000 ) 20% 43%/43% 32%;
+  background-repeat: no-repeat;
+  position: relative;
+  margin: auto auto auto 0;
+}
+
+#fall > div:before {
+  content: "";
+  position: absolute;
+  width: 59%;
+  height: 25%;
+  border-top: 13px solid var(--c);
+  border-radius: 50%;
+  bottom: 2%;
+  left: 3%;
+  transform: rotate(7deg);
+  filter: drop-shadow(51px -76px var(--c));
+}
+
+#fall > div:after {
+  content: "";
+  position: absolute;
+  width: 12%;
+  aspect-ratio: 1.5;
+  background: 
+  linear-gradient(#4f0905 0 0)0 50%/67% 1px, 
+  radial-gradient(50% 100% at 50% 125%,#1caa00 98%,#0000) 100% 0/83% 51%, 
+  radial-gradient(50% 100% at 50% -25%,#1caa00 98%,#0000) 100% 100%/83% 51%;
+  background-repeat: no-repeat;
+  top: 36%;
+  left: 94%;
+  transform-origin: 0 50%;
+  transform: rotate(57deg);
+}
+
+
+#speech-bubble{
+  display: inline-flex;
+  background-color: white;
+  padding: 10px;
+  border-radius: 30px;
+  flex-direction: row;
+  position: relative;
+  left: 340px;
+  bottom: 400px;
+}
+
+.speech-bubble-bottom {
+  background-color: #ffffff;
+  position: relative;
+  top: 60px;
+  right: 350px;
+  padding: 10px;
+  height: 5px;
+  transform: skewY(-45deg)
 }
