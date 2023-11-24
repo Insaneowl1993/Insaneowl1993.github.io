@@ -232,6 +232,21 @@ z-index: 100;
   text-align: center;
 }
 
+#speech-bubble,
+.about {
+  display: inline-block;
+  background-color: white;
+  padding: 10px;
+  border-radius: 30px;
+  flex-direction: column;
+  position: absolute;
+  left: 360px;
+  bottom: 300px;
+  z-index: 200;
+  width: 400px;
+  text-align: center;
+}
+
 #speech-bubble > a {
   word-spacing: 30px;
 }
@@ -239,11 +254,22 @@ z-index: 100;
 .speech-bubble-bottom {
   background-color: #ffffff;
   position: absolute;
-  top: 85px;
-  right: 390px;
+  top: 55px;
+  right: 405px;
   padding: 10px;
   height: 5px;
-  transform: skewY(-45deg);
+  transform: rotate(45deg) skew(10deg);
+  z-index: 10;
+}
+
+.speech-bubble-bottom-about {
+  background-color: #ffffff;
+  position: absolute;
+  top: 85px;
+  right: 410px;
+  padding: 10px;
+  height: 5px;
+  transform: rotate(45deg) skew(10deg);
   z-index: 10;
 }
 
