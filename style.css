@@ -1,5 +1,6 @@
 body{
   margin-top: 106px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 #owl {
@@ -218,22 +219,39 @@ z-index: 100;
 
 
 #speech-bubble{
-  display: inline-flex;
+  display: inline-block;
   background-color: white;
   padding: 10px;
   border-radius: 30px;
-  flex-direction: row;
-  position: relative;
+  flex-direction: column;
+  position: absolute;
   left: 340px;
   bottom: 400px;
+  z-index: 200;
+  width: 400px;
+  text-align: center;
+}
+
+#speech-bubble > a {
+  word-spacing: 30px;
 }
 
 .speech-bubble-bottom {
   background-color: #ffffff;
-  position: relative;
-  top: 60px;
-  right: 350px;
+  position: absolute;
+  top: 85px;
+  right: 390px;
   padding: 10px;
   height: 5px;
-  transform: skewY(-45deg)
+  transform: skewY(-45deg);
+  z-index: 10;
+}
+
+.link {
+  flex-direction: row;
+  color: black;
+  text-decoration: none;
+  border: none;
+  width: 400px;
+  z-index: 200;
 }
