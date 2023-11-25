@@ -186,7 +186,7 @@ z-index: 100;
   radial-gradient(71% 61% at 80% 100%,#0000 90%,var(--c) 91% 99%,#0000 ) 50% 38%/88% 50%, 
   radial-gradient(75% 116% at 88% 100%,#0000 88%,var(--c) 89% 99%,#0000 ) 20% 43%/43% 32%;
   background-repeat: no-repeat;
-  position: relative;
+  position: absolute;
   margin: auto auto auto 0;
   z-index: 3
 }
@@ -328,9 +328,10 @@ z-index: 100;
   flex-direction: column;
   position: absolute;
   left: 340px;
-  bottom: 400px;
+  top: 100px;
   z-index: 200;
   width: 400px;
+  max-height: 200px;
   text-align: center;
 }
 
@@ -356,7 +357,7 @@ z-index: 100;
 .speech-bubble-bottom {
   background-color: #ffffff;
   position: absolute;
-  top: 55px;
+  top: 100px;
   right: 405px;
   padding: 10px;
   height: 5px;
