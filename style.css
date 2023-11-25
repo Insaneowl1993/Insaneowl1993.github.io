@@ -202,20 +202,119 @@ z-index: 100;
   filter: drop-shadow(51px -76px var(--c));
 }
 
-#fall > div:after {
-  content: "";
+
+#bushes-1 {
   position: absolute;
-  width: 12%;
-  aspect-ratio: 1.5;
-  background: 
-  linear-gradient(#4f0905 0 0)0 50%/67% 1px, 
-  radial-gradient(50% 100% at 50% 125%,#1caa00 98%,#0000) 100% 0/83% 51%, 
-  radial-gradient(50% 100% at 50% -25%,#1caa00 98%,#0000) 100% 100%/83% 51%;
-  background-repeat: no-repeat;
-  top: 36%;
-  left: 94%;
-  transform-origin: 0 50%;
-  transform: rotate(57deg);
+  margin-top:70px;
+  width:150px;
+  height:60px;
+  background:#1caa00;
+  /* box-shadow: 10px 10px rgba(0,0,0,0.2); */
+  border-radius:100px;
+  left: 80px;
+  top: -20px;
+}
+
+#bushes-1::after, 
+#bushes-1::before{
+   content:"";
+   position:relative;
+   display:inline-block;
+   background:inherit;
+   border-radius:inherit;
+}
+#bushes-1::after{
+   width:50px;
+   height:50px;
+   top:10px;
+   left:-80px;
+}
+#bushes-1::before{
+   width:90px;
+   height:90px;
+   top: 10px;
+   left:40px;
+}
+
+#bushes-2 {
+  position: absolute;
+  margin-top:70px;
+  width:150px;
+  height:60px;
+  background:#1caa00;
+  /* box-shadow: 10px 10px rgba(0,0,0,0.2); */
+  border-radius:100px;
+  left: 80px;
+  top: 180px;
+}
+
+#bushes-2::after, 
+#bushes-2::before{
+   content:"";
+   position:relative;
+   display:inline-block;
+   background:inherit;
+   border-radius:inherit;
+}
+#bushes-2::after{
+   width:50px;
+   height:50px;
+   top:-60px;
+   left:-70px;
+}
+#bushes-2::before{
+   width:90px;
+   height:90px;
+   top: -40px;
+   left:40px;
+}
+
+#bushes-3 {
+  position: absolute;
+  margin-top:70px;
+  width:80px;
+  height:80px;
+  background:#1caa00;
+  /* box-shadow: 10px 10px rgba(0,0,0,0.2); */
+  border-radius:100px;
+  left: 120px;
+  top: 185px;
+}
+
+#bushes-4 {
+  position: absolute;
+  margin-top:70px;
+  width:100px;
+  height:100px;
+  background:#1caa00;
+  /* box-shadow: 10px 10px rgba(0,0,0,0.2); */
+  border-radius:100px;
+  left: 110px;
+  top: -60px;
+}
+
+#bushes-5 {
+  position: absolute;
+  margin-top:70px;
+  width:80px;
+  height:40px;
+  background:#1caa00;
+  /* box-shadow: 10px 10px rgba(0,0,0,0.2); */
+  border-radius:100px;
+  left: 220px;
+  top: 130px;
+}
+
+#bushes-6 {
+  position: absolute;
+  margin-top:70px;
+  width:80px;
+  height:40px;
+  background:#1caa00;
+  /* box-shadow: 10px 10px rgba(0,0,0,0.2); */
+  border-radius:100px;
+  left: 290px;
+  top: 60px;
 }
 
 
@@ -282,3 +381,4 @@ z-index: 100;
   width: 400px;
   z-index: 200;
 }
+
