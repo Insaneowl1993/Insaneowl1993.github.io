@@ -321,7 +321,6 @@ z-index: 100;
 
 
 #speech-bubble{
-  display: inline-block;
   background-color: white;
   padding: 10px;
   border-radius: 30px;
@@ -329,8 +328,9 @@ z-index: 100;
   position: absolute;
   left: 340px;
   top: 100px;
-  z-index: 200;
-  width: 400px;
+  z-index: 5;
+  width: 40vw;
+  min-height: 200px;
   max-height: 200px;
   text-align: center;
 }
