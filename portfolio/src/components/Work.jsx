@@ -26,12 +26,12 @@ const Work = () => {
                 Front End JavaScript Project
               </span>
               <div className='pt-8 text-center'>
-                <a href="/">
+                {/* <a href="/">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Demo
                   </button>
-                </a>
-                <a href="/">
+                </a> */}
+                <a href="https://github.com/Insaneowl1993/Star-Wars-Database">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Code
                   </button>
@@ -49,12 +49,12 @@ const Work = () => {
                 Konde: Full Stack Project
               </span>
               <div className='pt-8 text-center'>
-                <a href="/">
+                {/* <a href="/">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Demo
                   </button>
-                </a>
-                <a href="/">
+                </a> */}
+                <a href="https://github.com/Insaneowl1993/capstone-Insaneowl1993">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Code
                   </button>
