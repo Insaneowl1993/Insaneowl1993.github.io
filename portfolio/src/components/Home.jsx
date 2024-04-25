@@ -20,6 +20,7 @@ const Home = () => {
           my skills daily with a focus on full-stack development and
           applications.
         </p>
+        
         {/* Button */}
         <div>
           <button className="flex items-center px-6 py-3 my-2 border-2 group text-white hover:bg-red-400 duration-500">
