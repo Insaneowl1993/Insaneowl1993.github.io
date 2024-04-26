@@ -31,11 +31,13 @@ const Work = () => {
                     Demo
                   </button>
                 </a> */}
-                <a href="https://github.com/Insaneowl1993/Star-Wars-Database">
+                
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                  <a href="https://github.com/Insaneowl1993/Star-Wars-Database">
                     Code
+                  </a>
                   </button>
-                </a>
+                
               </div>
             </div>
           </div>
@@ -54,11 +56,13 @@ const Work = () => {
                     Demo
                   </button>
                 </a> */}
-                <a href="https://github.com/Insaneowl1993/capstone-Insaneowl1993">
+                
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                  <a href="https://github.com/Insaneowl1993/capstone-Insaneowl1993">
                     Code
+                    </a>
                   </button>
-                </a>
+               
               </div>
             </div>
           </div>
