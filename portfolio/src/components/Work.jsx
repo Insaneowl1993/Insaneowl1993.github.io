@@ -1,6 +1,8 @@
 import React from "react";
 import SWDatabase from "../assets/SWDatabase.png";
 import Konde from "../assets/Konde.png";
+import Tpwo from "../assets/Tpwo.png"
+import Swapnet from "../assets/SWAPNET.png"
 
 const Work = () => {
   return (
@@ -10,7 +12,8 @@ const Work = () => {
           <p className='text-4xl font-bold inline border-b-4 text-gray-300 border-red-400'>
             Work
           </p>
-          <p className='py-6'> Check out some of my Recent Work</p>
+          <p className='py-6'> Check out some of my Recent Work (Demo's available soon!)
+          </p>
         </div>
 
         {/* Container */}
@@ -43,7 +46,7 @@ const Work = () => {
           </div>
           <div
             style={{ backgroundImage: `url(${Konde})` }}
-            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto object-fit:contain content-div'
+            className='shadow-lg shadow-[#040c16] bg-fit group container rounded-md flex justify-center items-center mx-auto object-fit:contain content-div'
           >
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
@@ -59,6 +62,56 @@ const Work = () => {
                 
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                   <a href="https://github.com/Insaneowl1993/capstone-Insaneowl1993">
+                    Code
+                    </a>
+                  </button>
+               
+              </div>
+            </div>
+          </div>
+          <div
+            style={{ backgroundImage: `url(${Tpwo})`}}
+            className='shadow-lg bg-red-400 shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto object-fit:contain content-div'
+          >
+            {/* Hover Effects */}
+            <div className='opacity-0 group-hover:opacity-100'>
+              <span className='text-2xl font-bold text-white tracking-wider'>
+                Te Puawaitanga Women's Organization
+              </span>
+              <div className='pt-8 text-center'>
+                {/* <a href="/">
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                    Demo
+                  </button>
+                </a> */}
+                
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                  <a href="https://github.com/bakanano/TPWO">
+                    Code
+                    </a>
+                  </button>
+               
+              </div>
+            </div>
+          </div>
+          <div
+            style={{ backgroundImage: `url(${Swapnet})`}}
+            className='shadow-lg bg-purple-500 shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto object-fit:contain content-div'
+          >
+            {/* Hover Effects */}
+            <div className='opacity-0 group-hover:opacity-100'>
+              <span className='text-2xl font-bold text-white tracking-wider'>
+                Swapnet: Cross Chain Asset Swapper
+              </span>
+              <div className='pt-8 text-center'>
+                {/* <a href="/">
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                    Demo
+                  </button>
+                </a> */}
+                
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                  <a href="https://github.com/AffanImran1303/SwapNet">
                     Code
                     </a>
                   </button>
